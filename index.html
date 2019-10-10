@@ -1,0 +1,387 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-GB" class="govuk-template">
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Workspace</title>
+<!--   <base href="https://data.trade.gov.uk/"> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+  <meta property="og:image" content="https://data.trade.gov.uk/__django_static/assets/images/govuk-opengraph-image.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="https://data.trade.gov.uk/__django_static/assets/images/favicon.ico" type="image/x-icon">
+  <link rel="mask-icon" href="https://data.trade.gov.uk/__django_static/assets/images/govuk-mask-icon.svg" color="#0b0c0c">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://data.trade.gov.uk/__django_static/assets/images/govuk-apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="https://data.trade.gov.uk/__django_static/assets/images/govuk-apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://data.trade.gov.uk/__django_static/assets/images/govuk-apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" href="https://data.trade.gov.uk/__django_static/assets/images/govuk-apple-touch-icon.png">
+  <link rel="stylesheet" href="https://data.trade.gov.uk/__django_static/govuk-frontend-including-fonts-2.12.0-v1.min.css">
+  <link rel="stylesheet" href="https://data.trade.gov.uk/__django_static/data-workspace.css">
+
+  
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57533520-44"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-57533520-44');
+    </script>
+  
+  
+    
+    <style>
+        .btn-stop {
+            vertical-align: middle;
+        }
+    </style>
+
+</head>
+
+<body class="govuk-template__body">
+  <script>
+    document.body.className = document.body.className + ' js-enabled';
+  </script>
+
+  <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+        <div class="govuk-header__container govuk-width-container">
+            <div class="govuk-header__logo">
+              <a href="index.html" class="govuk-header__link govuk-header__link--homepage">
+                <span class="govuk-header__logotype">
+                  <span class="govuk-header__logotype-text">
+                    Data Workspace
+                  </span>
+                </span>
+              </a>
+            </div>
+            <div align="right" class="govuk-header__content">
+              <button type="button" role="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
+              <nav>
+                <ul id="navigation" class="govuk-header__navigation " aria-label="Top Level Navigation">
+                  <li class="govuk-header__navigation-item">
+                    <a class="govuk-header__link" href="data-workspace-about.html">
+                      About
+                    </a>
+                  </li>
+                  <li class="govuk-header__navigation-item">
+                    <a class="govuk-header__link" href="index.html">
+                      Catalogue
+                    </a>
+                  </li>
+                  <li class="govuk-header__navigation-item">
+                    <a class="govuk-header__link" href="tools.html">
+                      Tools
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
+
+  <div class="govuk-width-container">
+    <div class="govuk-phase-banner">
+      <p class="govuk-phase-banner__content">
+        <strong class="govuk-tag govuk-phase-banner__content__tag ">alpha</strong>
+        <span class="govuk-phase-banner__text">
+          This is a new service – your <a class="govuk-link" href="/support/">feedback</a> will help us to improve it.
+        </span>
+      </p>
+    </div>
+
+    <div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="#">Catalogue</a>
+    </li>
+  </ol>
+</div>
+
+    <main class="govuk-main-wrapper" id="main-content" role="main">
+
+
+<div class="govuk-width-container">
+    <h1 class="govuk-heading-l">Find data</h1>
+</div>
+      
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-one-third">
+            
+                <dl class="govuk-summary-list govuk-summary-list">
+                    
+                    <div class="govuk-form-group">
+ 
+ 
+ 
+  <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
+      <h1 class="govuk-fieldset__heading">
+        Search
+      </h1>
+    </legend>
+  <input class="govuk-input" id="event-name" name="event-name" type="text" placeholder="Search catalogue">
+</div>       
+                           <div class="govuk-form-group">
+  <fieldset class="govuk-fieldset">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
+      <h1 class="govuk-fieldset__heading">
+        Topics
+      </h1>
+    </legend>
+    <div class="govuk-checkboxes govuk-checkboxes--small">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation">
+          Companies
+        </label>
+      </div>
+            <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation">
+          Export
+        </label>
+      </div>
+            <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation">
+          Investment
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation-2" name="organisation" type="checkbox" value="employment-tribunal">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation-2">
+          Staff        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation-2" name="organisation" type="checkbox" value="employment-tribunal">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation-2">
+          Structure        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation-3">
+          Geography
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation-4" name="organisation" type="checkbox" value="DfT">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation-4">
+          Macroeconomic        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+       
+       
+       <div class="govuk-form-group">
+  <fieldset class="govuk-fieldset">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
+      <h1 class="govuk-fieldset__heading">
+       Data source
+      </h1>
+    </legend>
+    <div class="govuk-checkboxes govuk-checkboxes--small">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation">
+          Data Hub
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation-2" name="organisation" type="checkbox" value="employment-tribunal">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation-2">
+          GREAT.gov       </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation-2" name="organisation" type="checkbox" value="employment-tribunal">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation-2">
+          ONS        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation-3">
+          HMRC
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation-3">
+          Companies House
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation-3">
+          World Bank
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation-3">
+          IMF
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation-3">
+          data.gov.uk
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+       
+                    
+                </dl>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="govuk-grid-column-two-thirds">
+         <div class="govuk-grid-row">
+            	<div class="govuk-grid-column-one-half">            
+            		<h1 class="govuk-heading-m">8 datasets</h1>
+            	</div>
+            	<div class="govuk-grid-column-one-half" align="right">
+            		<div class="govuk-form-group">
+            			<label class="govuk-label govuk-!-font-size-14" for="sort">
+            			Sort by:
+            			<select class="govuk-label govuk-!-font-size-14" id="sort" name="sort" style="display: inline-block">
+    						<option value="updated" selected>Recently updated</option>
+    						<option value="views">Most views</option>
+    					</select>
+    					</label>
+  					</div>
+  				</div>
+  			</div>
+  			
+  		    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible govuk-!-margin-top-0">
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <h3 class="govuk-heading-m">
+                <a class="govuk-link" href="data-workspace-uk-export-dataset.html">Countries and territories</a>
+            </h3>
+        </div>
+    </div>
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">       
+            <p class="govuk-body">DIT's agreed list of countries and territories.</p>
+        </div>
+        <div class="govuk-grid-column-one-third"> 
+          <p class="govuk-body-s" align="right">
+            Updated: 10/04/2019
+            <br />Views: 72
+          </p>
+        </div>
+    </div>
+
+     <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <p class="govuk-body-s"align="left">Topics: <a href="">Companies</a>
+            <br />Sources: <a href="">HMRC</a>
+            </p>
+        </div>
+    </div>
+
+
+
+  <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+      <div class="govuk-grid-row">
+          <div class="govuk-grid-column-two-thirds">
+            <h3 class="govuk-heading-m">
+                <a class="govuk-link" href="data-workspace-datareport-page.html">GDP components</a>
+            </h3>
+          </div>
+      </div>
+        
+  <p class="govuk-body">A detailed breakdown of the components that make up gross domestic product, including household
+                        consumption, government spending, investment, trade and output by sector.</p>
+
+  <p class="govuk-body-s">Topics: <a href="">Companies, </a><a href="">Investment, </a><a href="">Export</a>
+    <br />Sources: <a href="">Data Hub, </a><a href="">GREAT.gov</a></p>
+
+
+                
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+                <h3 class="govuk-heading-m">
+                    <a class="govuk-link" href="/catalogue/ons-data">GVA bands to ONS sector relationship</a>
+                </h3>
+                <p class="govuk-body">This list shows the relationship with GVA bands and the 18 ONS sectors.</p>
+
+           <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+                
+                <h3 class="govuk-heading-m">
+                    <a class="govuk-link" href="/catalogue/open-data-sets">One list</a>
+                </h3>
+                <p class="govuk-body">The One List is an internal management tool that supports the account management of over 1700 key companies.</p>
+
+<hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+               
+                <h3 class="govuk-heading-m">
+                    <a class="govuk-link" href="/catalogue/public-data">Organogram of staff roles and salaries</a>
+                </h3>
+                <p class="govuk-body">Organogram (organisation chart) showing all staff roles. Names and salaries are also listed for the Senior Civil Servants.</p>
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+                <h3 class="govuk-heading-m">
+                    <a class="govuk-link" href="data-workspace-ref-data-page.html">Trade in goods</a>
+                </h3>
+                <p class="govuk-body">Data on the UK's trade in goods by country and commodity.</p>
+                
+          
+
+            
+
+            
+
+        </div>
+
+      
+    </div>
+
+    </main>
+  </div>
+
+  <footer class="govuk-footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <div class="govuk-footer__meta">
+        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+            <ul class="govuk-footer__inline-list">
+              <li class="govuk-footer__inline-list-item">
+                <a target="_blank" class="govuk-footer__link" href="https://workspace.trade.gov.uk/working-at-dit/policies-and-guidance/data-workspace-privacy-policy">
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
+          <svg role="presentation" focusable="false" class="govuk-footer__licence-logo" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 483.2 195.7" height="17" width="41">
+            <path fill="currentColor" d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145" />
+          </svg>
+          <span class="govuk-footer__licence-description">
+            All content is available under the
+            <a class="govuk-footer__link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated
+          </span>
+        </div>
+        <div class="govuk-footer__meta-item">
+          <a class="govuk-footer__link govuk-footer__copyright-logo" href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/__django_static/govuk-frontend-2.12.0.min.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll();
+  </script>
+</body>

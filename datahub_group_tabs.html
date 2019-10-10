@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="govuk-template">
+
+    <head>
+      <meta charset="utf-8">
+      <title>Data Workspace</title>
+    <!--   <base href="https://data.trade.gov.uk/"> -->
+
+      <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+      <meta name="theme-color" content="#0b0c0c">
+      <meta property="og:image" content="https://data.trade.gov.uk/__django_static/assets/images/govuk-opengraph-image.png">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="https://data.trade.gov.uk/__django_static/assets/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="https://data.trade.gov.uk/__django_static/assets/images/govuk-mask-icon.svg" color="#0b0c0c">
+      <link rel="apple-touch-icon" sizes="180x180" href="https://data.trade.gov.uk/__django_static/assets/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="https://data.trade.gov.uk/__django_static/assets/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="https://data.trade.gov.uk/__django_static/assets/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="https://data.trade.gov.uk/__django_static/assets/images/govuk-apple-touch-icon.png">
+      <link rel="stylesheet" href="stylesheets/govuk-frontend-3.2.0.min.css">
+      <link rel="stylesheet" href="https://data.trade.gov.uk/__django_static/data-workspace.css">
+
+        <script src="js/govuk-frontend-3.2.0.min.js"></script>
+
+         <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57533520-44"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-57533520-44');
+        </script>
+        <style>
+            .btn-stop {
+                vertical-align: middle;
+            }
+        </style>
+
+    </head>
+
+    <body class="govuk-template__body js-enabled">
+      <script>
+        document.body.className = document.body.className + ' js-enabled';
+      </script>
+
+      <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
+
+        <header class="govuk-header " role="banner" data-module="govuk-header">
+            <div class="govuk-header__container govuk-width-container">
+                <div class="govuk-header__logo">
+                  <a href="index2.html" class="govuk-header__link govuk-header__link--homepage">
+                    <span class="govuk-header__logotype">
+                      <span class="govuk-header__logotype-text">
+                        Data Workspace
+                      </span>
+                    </span>
+                  </a>
+                </div>
+                <div align="right" class="govuk-header__content">
+                  <button type="button" role="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
+                  <nav>
+                    <ul id="navigation" class="govuk-header__navigation " aria-label="Top Level Navigation">
+                      <li class="govuk-header__navigation-item">
+                        <a class="govuk-header__link" href="data-workspace-about.html">
+                          About
+                        </a>
+                      </li>
+                      <li class="govuk-header__navigation-item">
+                        <a class="govuk-header__link" href="index2.html">
+                          Catalogue
+                        </a>
+                      </li>
+                      <li class="govuk-header__navigation-item">
+                        <a class="govuk-header__link" href="tools.html">
+                          Tools
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+        </header>
+
+
+      <div class="govuk-width-container">
+
+          <div class="govuk-phase-banner">
+              <p class="govuk-phase-banner__content">
+                <strong class="govuk-tag govuk-phase-banner__content__tag ">alpha</strong>
+                <span class="govuk-phase-banner__text">
+                  This is a new service – your <a class="govuk-link" href="/support/">feedback</a> will help us to improve it.
+                </span>
+              </p>
+          </div>
+
+
+
+
+        <div class="govuk-breadcrumbs">
+            <ol class="govuk-breadcrumbs__list">
+                <li class="govuk-breadcrumbs__list-item">
+                    <a class="govuk-breadcrumbs__link" href="index2.html">Home</a>
+                </li>
+
+                <li class="govuk-breadcrumbs__list-item">
+                    Data Hub datasets
+                </li>
+            </ol>
+        </div>
+
+
+        <main class="govuk-main-wrapper" id="main-content" role="main">
+            <div class="govuk-grid-row">
+                <div class="govuk-grid-column-two-thirds">
+                        <h1 class="govuk-heading-l">Data Hub data</h1>
+                        <p class="govuk-body">
+                            Data Hub is DIT's central system for managing, tracking and building relationships with UK and international businesses.
+                            It allows DIT staff and partners to record information about the companies and contacts they meet, the interactions and services provided to them, as well as tracking investment projects and Overseas Market Introduction Service (OMIS) orders.
+                        </p>
+                        <br>
+                    <div class="govuk-tabs" data-module="govuk-tabs">
+                      <h2 class="govuk-tabs__title">
+                        Contents
+                      </h2>
+                      <ul class="govuk-tabs__list">
+                        <li class="govuk-tabs__list-item govuk-tabs__list-item--selected">
+                          <a class="govuk-tabs__tab" href="#past-day">
+                            Raw datasets
+                          </a>
+                        </li>
+                        <li class="govuk-tabs__list-item">
+                          <a class="govuk-tabs__tab" href="#past-week">
+                            Data cuts
+                          </a>
+                        </li>
+                      </ul>
+                      <section class="govuk-tabs__panel" id="past-day">
+                        <h2 class="govuk-heading-l">Raw datasets</h2>
+                        <p class="govuk-body">
+                            These are raw datasets for use in analytical tools.
+                        </p>
+                        <h2 class="govuk-heading-m">
+                            <a class="govuk-link--no-visited-state " href="">Data Hub companies</a>
+                        </h2>
+                        <p class="govuk-body">Records of companies and other organisations that DIT has interacted with.</p>
+
+                        <h2 class="govuk-heading-m">
+                            <a class="govuk-link--no-visited-state " href="">Data Hub contacts</a>
+                        </h2>
+                        <p class="govuk-body">Records of business contacts that DIT staff have interacted with.</p>
+
+                        <h2 class="govuk-heading-m">
+                            <a class="govuk-link--no-visited-state " href="">Data Hub events</a>
+                        </h2>
+                        <p class="govuk-body">Records of DIT events in the UK and overseas.</p>
+
+                        <h2 class="govuk-heading-m">
+                            <a class="govuk-link--no-visited-state " href="">Data Hub interactions & service deliveries</a>
+                        </h2>
+                        <p class="govuk-body">Records of interactions between DIT staff and company contacts.</p>
+
+                        <h2 class="govuk-heading-m">
+                            <a class="govuk-link--no-visited-state " href="datahub_investments_raw.html">Data Hub investment projects</a>
+                        </h2>
+                        <p class="govuk-body">Data about investment projects, either into or within the UK, that DIT has supported or is aware of.</p>
+
+                         <h2 class="govuk-heading-m">
+                            <a class="govuk-link--no-visited-state " href="">Overseas Market Introduction Service (OMIS) Orders</a>
+                        </h2>
+                        <p class="govuk-body">Records of Overseas Market Introduction Service (OMIS) orders delivered by DIT for UK companies.</p>
+
+                      </section>
+
+                      <section class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-week">
+                        <h2 class="govuk-heading-l">Data cuts</h2>
+                        <p class="govuk-body">
+                            These are cuts of of raw datasets taken from various internal and external sources.
+                        </p>
+                        <h2 class="govuk-heading-m">
+                            <a class="govuk-link--no-visited-state " href="datahub_investments_2018.html">Investments landed 2018-2019</a>
+                        </h2>
+                        <p class="govuk-body">FDI and non-FDI projects from Data Hub which landed in the 2018-2019 financial year.</p>
+                        <h2 class="govuk-heading-m">
+                            <a class="govuk-link--no-visited-state " href="">Completed OMIS orders</a>
+                        </h2>
+                        <p class="govuk-body">All Overseas Market Introduction Service (OMIS) orders completed in the past 7 years.</p>
+                        <h2 class="govuk-heading-m">
+                            <a class="govuk-link--no-visited-state " href="">Data Hub companies in the North East</a>
+                        </h2>
+                        <p class="govuk-body">Companies listed on Data Hub which are based in the North East of England.</p>
+                      </section>
+                    </div>
+                    <h2 class="govuk-heading-m govuk-!-margin-top-8">Additional Information</h2>
+
+                    <dl class="govuk-summary-list">
+                        <div class="govuk-summary-list__row">
+                            <dt class="govuk-summary-list__key">
+                                Published Date
+                            </dt>
+                            <dd class="govuk-summary-list__value">
+                                05/07/2019
+                            </dd>
+                        </div>
+
+                        <div class="govuk-summary-list__row">
+                            <dt class="govuk-summary-list__key">
+                                Updated date
+                            </dt>
+                            <dd class="govuk-summary-list__value">
+                                19/08/2019
+                            </dd>
+                        </div>
+
+                        <div class="govuk-summary-list__row">
+                            <dt class="govuk-summary-list__key">
+                                Information Asset Manager
+                            </dt>
+                            <dd class="govuk-summary-list__value">
+                                <p class="govuk-body">
+                                  Jane Jones
+                                  <br>
+                                <a href="mailto:weichao.wang@trade.gov.uk">Jane.Jones@trade.gov.uk</a>
+                                </p>
+                            </dd>
+                        </div>
+                        <div class="govuk-summary-list__row">
+                            <dt class="govuk-summary-list__key">
+                                Information Asset Owner
+                            </dt>
+                            <dd class="govuk-summary-list__value">
+                                <p class="govuk-body">
+                                  John Smith
+                                  <br>
+                                  <a href="mailto:tom.knight@trade.gov.uk">john.smith@trade.gov.uk</a>
+                                </p>
+                            </dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </main>
+      </div>
+    <script>window.GOVUKFrontend.initAll()</script>
+    </body>
+</html>
+
+
